@@ -4,10 +4,7 @@ block head-includes
     link(href='//vjs.zencdn.net/4.12.6/video-js.css', rel='stylesheet')
 
 block content
-  #logo-tagline
-    h1#logo= title
-    p#tagline Learning for unpredictable future
-      p
+      div.space
       .row
           video.video-js.vjs-default-skin(controls, preload='none', width="640px" height="264px",
           poster='http://video-js.zencoder.com/oceans-clip.jpg')
