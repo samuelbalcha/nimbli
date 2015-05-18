@@ -1,0 +1,46 @@
+body {
+  background-color: #5EC0C9;
+  font-family: 'Comfortaa', cursive;
+}
+
+a {
+  color: #00B7FF;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+#container{
+    color: #ffffff;
+}
+#logo-tagline{
+    height: 100px;
+}
+#logo{
+    color: #ECFF31;
+    font-size: 50px;
+    height: 45%;
+}
+#tagline{
+    color: #ffffff;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.jumbotron{
+    background-color: inherit;
+}
+
+#hello-nimbli{
+ font-weight: 400;
+}
+.space{
+    height: 35px;
+}
+#contact{
+    color: #ffffff;
+    padding: 2pt;
+    font-size: 15px;
+    font-weight: 300;
+}

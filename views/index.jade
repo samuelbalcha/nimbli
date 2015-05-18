@@ -1,0 +1,20 @@
+extends layout
+block head-includes
+    script(src='//vjs.zencdn.net/4.12.6/video.js')
+    link(href='//vjs.zencdn.net/4.12.6/video-js.css', rel='stylesheet')
+
+block content
+  #logo-tagline
+    h1#logo= title
+    p#tagline Learning for unpredictable future
+      p
+      .row
+          video.video-js.vjs-default-skin(controls, preload='none', width="640px" height="264px",
+          poster='http://video-js.zencoder.com/oceans-clip.jpg')
+              source(src='http://vjs.zencdn.net/v/oceans.mp4', type='video/mp4')
+              source(src='http://vjs.zencdn.net/v/oceans.webm', type='video/webm')
+      div.space
+      div#contact
+        p#hello-nimbli hello@nimbli.org
+        p#contact Otavantie 3C 82, 00200 Helsinki, +358440234488
+
