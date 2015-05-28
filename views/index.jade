@@ -6,7 +6,8 @@ block head-includes
 block content
       div.space
       .row
-          video.video-js.vjs-default-skin(controls, width="450px" height="254px")
+          video.video-js.vjs-default-skin(controls, width="450px" height="254px",
+          poster='/images/cover-min.png')
               source(src='https://s3.eu-central-1.amazonaws.com/nimbli/nimbli.mp4', type='video/mp4')
               source(src='https://s3.eu-central-1.amazonaws.com/nimbli/nimbli.webm', type='video/webm')
       div.space
